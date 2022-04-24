@@ -1,0 +1,213 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+/* -------------- */
+
+div.card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 2px 0;
+    box-sizing: border-box;
+    color: #333;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    margin: 3em 10% 0;
+    padding: 40px;
+    text-align: left;
+    transition: all 350ms;
+  }
+  
+  div.card:hover {
+    box-shadow: rgba(56,60,67,.07) 0 0 0 1px,rgba(56,60,67,.15) 0 8px 14px 1px;
+  }
+  
+  p.plan-name {
+    color: #333;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: center
+  }
+  
+  p.price {
+    color: #333;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0 0 .15em;
+    text-align: center
+  }
+
+  p.pp {
+    color: #333;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 0 0 .15em;
+    text-align: left
+  }
+  
+  div.card p.price del {
+    color: #2cbc63;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 48px;
+    text-align: center;
+    vertical-align: middle
+  }
+  
+  div.card p {
+    color: #333;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+  }
+  
+  p.save-badge {
+    background-color: #ddf8e7;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: green;
+    cursor: default;
+    display: inline-block;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle
+  }
+  
+  div.card div {
+    color: #333;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    text-align: center
+  }
+  
+  a.toast-offer {
+    background-color: #fef1bd;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    font-size: 13px;
+    margin-top: 1.5em;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle
+  }
+  
+  div.card a.toast-offer span {
+    color: #b9babd;
+    cursor: pointer;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    font-size: .9em;
+    text-align: center
+  }
+  
+  div.card br {
+    color: #333;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    text-align: center
+  }
+  
+  a.button.second-buy-button.button-principal {
+    background-color: #2cbc63;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: rgba(0,12,32,.04) 0 0 1px 0,rgba(10,31,68,.1) 0 3px 4px 0;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 0;
+    margin-top: 2em;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    will-change: transform
+  }
+  
+  svg.svg-inline--fa.fa-shopping-cart.fa-w-18 {
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    font-size: inherit;
+    height: 1em;
+    line-height: 50px;
+    margin-right: .5em;
+    overflow: visible;
+    pointer-events: none;
+    text-align: center;
+    vertical-align: -.125em;
+    width: 1.125em
+  }
+  
+  div.card svg.svg-inline--fa.fa-shopping-cart.fa-w-18 path {
+    color: #000;
+    cursor: pointer;
+    font-family: "Source Sans 3","Source Sans Pro","Noto Sans",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",emoji;
+    line-height: 50px;
+    pointer-events: none;
+    text-align: center
+  }
+  
+  p.price {
+    color: #333;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 2.5em;
+    /* font-weight: bold; */
+    font-weight: 550;
+  }
+  
+  p.price del {
+    color: #2cbc63;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 48px;
+    text-align: center;
+    vertical-align: middle
+  }
+  

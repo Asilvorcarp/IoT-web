@@ -1,0 +1,32 @@
+{
+    "deviceType": "CustomCategory",
+    "iotId": "FHHGKSSmEeJwN8J3NlCOgw8400",
+    "requestId": "100",
+    "checkFailedData": {
+        "level": {
+            "code": 5092,
+            "time": 1650770355082,
+            "message": "property not found",
+            "value": 0
+        },
+        "smoke": {
+            "code": 5092,
+            "time": 1650770355082,
+            "message": "property not found",
+            "value": 44
+        }
+    },
+    "productKey": "gw84Eq8aXxj",
+    "gmtCreate": 1650770355082,
+    "deviceName": "test01",
+    "items": {
+        "PhotoResistors": {
+            "time": 1650770355082,
+            "value": 746
+        },
+        "RoomTemp": {
+            "time": 1650770355082,
+            "value": 24.93
+        }
+    }
+}
