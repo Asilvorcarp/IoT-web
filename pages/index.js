@@ -146,11 +146,11 @@ export default class Home extends React.Component {
     render() {
         return ( 
             <>
-                <div className="card" class="card" style={{marginTop: 10}}>
+                <div className="card" style={{marginTop: 10}}>
                     <p className="price"> 火灾报警器！ </p> 
                 </div>
                 
-                <div className="card" class="card">
+                <div className="card">
                     <p className="pp"> 当前温度：{this.state.temperature}℃</p>
                     <p className="pp"> 当前光线强度：{this.state.PhotoResistors} </p>
                     <p className="pp"> 当前烟雾指数：{this.state.smoke} </p>
@@ -168,7 +168,7 @@ export default class Home extends React.Component {
                     
                 </div>
 
-                <div className="card" class="card" style={{position:"sticky"}}>
+                <div className="card" style={{position:"sticky"}}>
                     <div >
                         <p> 当前连接参数： </p>
                         <p> clientId: {this.data.options.clientId}</p>
